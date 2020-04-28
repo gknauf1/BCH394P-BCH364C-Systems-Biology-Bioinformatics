@@ -169,3 +169,7 @@ sd(TU_CDR3$Hydrophob.Ab)
 sd(TU_CDR3$Charge.Ab)
 sd(TU_combined_CDRs$Hydrophob.Ab)
 sd(TU_combined_CDRs$Charge.Ab)
+
+
+t.test(Ab_s_CDR3$Charge.Ab, TU_CDR3$Charge.TU)
+t.test(Ab_s_combined_CDRs$Charge.Ab, TU_combined_CDRs$Charge.TU)
